@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-<<<<<<< HEAD
     "jsEngine": "jsc",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +16,6 @@
     },
     "ios": {
       "supportsTablet": true
-=======
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.cauany.imagenstensorflow"
->>>>>>> 9f1c7c20de232ec5617e809acfb66395c1dcef0f
     },
     "android": {
       "adaptiveIcon": {
@@ -37,44 +30,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-<<<<<<< HEAD
       "expo-router"
-=======
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ]
->>>>>>> 9f1c7c20de232ec5617e809acfb66395c1dcef0f
     ],
     "experiments": {
       "typedRoutes": true
     },
     "extra": {
-<<<<<<< HEAD
       "router": {
         "origin": false
       },
       "eas": {
         "projectId": "bf84ce83-55a4-4d1e-943e-ae886cef3865"
       }
-=======
-      "eas": {
-        "projectId": "bf84ce83-55a4-4d1e-943e-ae886cef3865"
-      }
-    },
-    "owner": "cauany",
-    "updates": {
-      "url": "https://u.expo.dev/bf84ce83-55a4-4d1e-943e-ae886cef3865"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
->>>>>>> 9f1c7c20de232ec5617e809acfb66395c1dcef0f
     }
   }
 }
